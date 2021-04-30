@@ -1,0 +1,103 @@
+body {
+    background-color: #9fb8ad;
+}
+
+.blogTitle {
+    text-align: center;
+    color: #383e56;
+}
+
+.pageWrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+    
+}
+.blogCard {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    font-size: 30px;
+    padding: 10px 0px;
+    
+}
+
+.titleInputs {
+    padding: 10px 5px;
+    width: 560px;
+    background-color: #c5d7bd;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #383e56;
+    
+    
+}
+.titleInputs::placeholder {
+    font-size: 15px;
+    color: #383e56;
+}
+
+.textArea {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color:#c5d7bd;
+    border-radius: 4px;
+    padding: 5px 5px;
+}
+
+.textArea::placeholder {
+    font-size: 15px;
+    color: #383e56;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: 2px solid #383e56;
+    color: #383e56;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 150ms;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: #383e56 ;
+    color: #c5d7bd;
+}
+.oldTitle {
+    text-align: center;
+    color: #383e56;
+}
+.oldText {
+    padding-left: 2.5px;
+}
+
+.oldBlog {
+    border: 1px solid #383e56;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.date {
+    text-align: end;
+    color: #fb743e;
+}
+.title {
+    color: #383e56;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.text {
+    color: #383e56;
+    margin-bottom: 10px;
+}

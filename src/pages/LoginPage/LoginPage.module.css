@@ -1,0 +1,65 @@
+.registerPage {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+
+.registerFormWrapper {
+    max-width: 320px;
+    background-color: #383e56;
+    
+    border-radius: 4px;
+    
+}
+
+.registerCard {
+    padding: 10px 15px;
+    padding-left: 20px;
+    
+}
+
+.label {
+    color: #fb743e;
+    font-size: 20px;
+}
+
+input {
+    width: 270px;
+    padding: 10px;
+    border: 1px solid #fb743e;
+    border-radius: 4px;
+    outline: none;
+    background-color: transparent;
+    color: #fb743e ;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+input::placeholder {
+    font-size: 15px;
+    color:  #9fb8ad;
+}
+
+
+
+.btn {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 270px;
+    padding: 10px 0px;
+    border: none;
+    background-color: #fb743e;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: 150ms;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #fb743e ;
+}

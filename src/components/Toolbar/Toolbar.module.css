@@ -1,0 +1,63 @@
+.navbar {
+    background-color: #383e56;
+    box-shadow: 0 0 9px 0 #383e56;
+    display: flex;
+    justify-content: space-between;
+}
+.navList {
+    list-style-type: none;
+    display: flex;
+}
+.navItem {
+    display: flex;
+}
+.appLogo,
+.navLink {
+    color: #fb743e;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    font-size: 18px;
+    transition: 150ms;
+}
+.appLogo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.appLogo:hover,
+.navLink:hover {
+    background-color: #fb743e;
+    color: #383e56;
+}
+
+.lgtLink {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 150ms;
+}
+
+.lgtLink:hover {
+    background-color:white ;
+    color: #fb743e;
+}
+
+.userLink {
+    color: #383e56;
+    background-color: #fb743e;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 150ms;
+}
