@@ -85,7 +85,7 @@ class EditPage extends React.Component {
                                 <input 
                                     className={s.titleInputs} 
                                     placeholder='Title...' 
-                                    value={title}
+                                    value={this.state.blogs.title}
                                     onChange={this.setBlogTitle}/>
                                 
                             </div>
@@ -96,7 +96,7 @@ class EditPage extends React.Component {
                                         name='writeblog' 
                                         rows='10' 
                                         cols='77' 
-                                        value={text}
+                                        value={this.state.blogs.text}
                                         placeholder='Write your story...'
                                         onChange={this.setBlogText}/>
                                 </div>
